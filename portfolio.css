@@ -2,6 +2,8 @@
     body {
       background: hsl(273, 79%, 39%);
       text-align: center;
+      flex-direction: column;
+      width: 100%;
     }
 }
 
