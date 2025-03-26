@@ -3,41 +3,8 @@
       background: hsl(273, 79%, 39%);
       text-align: center;
     }
+}
 
-    #navbar ul {
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    #navbar {
-        height: 50px;
-    }
-
-    main {
-        padding: 50px 15px 0;
-    }
-  
-    h1, h2 {
-      font-size: 1.2em;
-    }
-
-    .image-container {
-      height: auto;
-      width: 90%;
-      padding: 50%;
-      margin: auto;
-    }
-  
-    img {
-      width: 100%;
-      height: auto;
-    }
-  
-    p {
-      font-size: 1em;
-    }
-  }
-  
 body {
     background: hsl(273, 79%, 39%);
     width: 90%;
