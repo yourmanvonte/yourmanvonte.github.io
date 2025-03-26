@@ -3,18 +3,18 @@
       background: hsl(273, 79%, 39%);
       text-align: center;
     }
-  
+
     #navbar ul {
       flex-direction: column;
-      gap: 5px;
+      gap: 2px;
     }
 
     #navbar {
-        height: 80px;
+        height: 50px;
     }
 
     main {
-        padding: 80px;
+        padding: 50px 15px 0;
     }
   
     h1, h2 {
@@ -23,7 +23,9 @@
 
     .image-container {
       height: auto;
-      padding: 20px;
+      width: 90%;
+      padding: 50%;
+      margin: auto;
     }
   
     img {
@@ -43,6 +45,12 @@ body {
     justify-content: center;
     margin: auto;
 }
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
 
 h1 {
     font-size: 2em;
@@ -84,6 +92,7 @@ ul {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 a {
@@ -100,7 +109,7 @@ p {
 main {
    text-align: center;
    margin: 0;
-   padding: 120px 0 0;
+   padding: 200px 15px 0;
 }
 
 .image-container {
@@ -114,27 +123,26 @@ main {
 }
 
 #dice {
-    width: 300px;
-    height: 300px;  
+    width: 100%;
+    height: auto;  
+    max-width: 500px;
     padding-top: 20px;  
     border-radius: 80px;
 }
 
 #naruto {
-    width: 500px;
-    height: 300px;  
+    width: 100%;
+    height: auto;  
     padding-top: 20px;  
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 500px;
     border-radius: 20px;
 }
 
 #superheros {
-    width: 500px;
-    height: 300px;  
+    width: 100%;
+    height: auto;  
     padding-top: 20px;  
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 500px;
 }
 
 #values {
