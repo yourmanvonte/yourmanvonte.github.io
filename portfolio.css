@@ -1,9 +1,21 @@
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 768px) {
     body {
       background: hsl(273, 79%, 39%);
       text-align: center;
       flex-direction: column;
       width: 100%;
+    }
+
+    #values {
+        font-size: 1em;
+        padding: 10em;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
